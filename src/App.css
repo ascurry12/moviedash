@@ -1,0 +1,79 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-app {
+
+}
+
+.data-list {
+
+}
+
+.data-list {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+.data-list td, .data-list th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.data-list tr:nth-child(even){background-color: rgb(55, 53, 53);}
+
+.data-list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgba(184, 4, 4, 0.608);
+  color: white;
+}
+
+.filters {
+  display: flex;
+  margin: 20px;
+}
+
+.filter-item {
+  margin: auto;
+  padding: 10px;
+}
+
+.statistics {
+  display: flex;
+  margin: 30px;
+}
+
+.stat-item {
+  margin: auto;
+  padding: 5px 20px;
+  background-color: rgba(184, 4, 4, 0.608);
+  border: solid black 1px;
+  border-radius: 10px;
+}
+
+#search {
+  width: 20rem;
+  height: 2rem;
+  border-radius: 20px;
+  padding: 10px;
+  border: 0.5px black solid;
+}
+
+#search:focus {
+  outline: none;
+}
+
+select {
+  width: auto;
+  height: 2rem;
+}
+
+select:focus {
+  outline: none;
+}
