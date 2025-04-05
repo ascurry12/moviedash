@@ -4,7 +4,6 @@ import MovieInfo from "./Components/MovieInfo";
 import Filters from "./Components/Filters";
 import Statistics from "./Components/Statistics";
 
-const API_KEY = import.meta.env.VITE_APP_API_KEY;
 const BEARER_TOKEN = import.meta.env.VITE_APP_BEARER_TOKEN;
 const languages = {
   en: "English",
