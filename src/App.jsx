@@ -14,6 +14,9 @@ const languages = {
   es: "Spanish",
   mn: "Mongolian",
   hi: "Hindi",
+  pt: "Portuguese",
+  ko: "Korean",
+  zh: "Chinese",
 };
 
 function App() {
@@ -41,6 +44,7 @@ function App() {
     fetchMovieData().catch(console.error);
   }, [page]);
 
+  movies ? console.log(movies) : null;
   return (
     <div className="main-app">
       <h1>Movie Dash</h1>
@@ -70,7 +74,7 @@ function App() {
                     key={movie.title}
                     title={movie.title}
                     year={year}
-                    rating={movie.vote_average}
+                    rating={Number(Math.round(movie.vote_average * 100) / 100)}
                     language={
                       languages[movie.original_language]
                     }
@@ -85,7 +89,7 @@ function App() {
                     key={movie.title}
                     title={movie.title}
                     year={year}
-                    rating={movie.vote_average}
+                    rating={Number(Math.round(movie.vote_average * 100) / 100)}
                     language={
                       languages[movie.original_language]
                     }
