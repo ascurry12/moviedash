@@ -28,7 +28,7 @@ function App() {
         method: "GET",
         headers: {
           accept: "application/json",
-          Authorization: `Bearer ${BEARER_TOKEN}`,
+          "Authorization": `Bearer ${BEARER_TOKEN}`,
         },
       };
 
