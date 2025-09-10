@@ -34,6 +34,7 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='./src/assets/moviedash2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[Imgur link](https://imgur.com/a/moviedashv2-7jK3x9Y)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap
